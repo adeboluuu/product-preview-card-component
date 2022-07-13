@@ -1,0 +1,52 @@
+*{
+    font-family: montserrat;
+
+}
+.text1{
+    color: hsl(158, 36%, 37%);
+    text-transform:uppercase;
+}
+.text-dark{
+    font-weight: 700;
+    font-size: 28px;
+}
+.greentext{
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 27px;
+}
+
+.btn{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    text-align: justify;
+    margin: auto;
+    justify-content:center ;
+
+}
+.justifytext{
+    text-align: justify;
+}
+
+@media (min-width:300px) and (max-width:840px){
+    .row.mx-auto.p-5.mt-5.g-0{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .img-fluid{
+        width: 100vw;
+    }
+    body{
+        width: auto;
+    }
+    .col-md-12 .col-sm-12 .col-lg-6{
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
+    .img-fluid{
+        background-image: url("images/image-product-mobile.jpg");
+    }
+}
